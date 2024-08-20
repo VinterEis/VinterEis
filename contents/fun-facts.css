@@ -1,0 +1,69 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+body * {
+    color: #444;
+}
+.wrapper {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+header {
+    text-align: center;
+}
+figure {
+    margin: 0;
+    text-align: left;
+}
+header figcaption {
+    padding-left: 3%;
+}
+header img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+}
+header h1, p {
+    color: #111;
+    margin: 5px 0;
+}
+header .img {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    top: 80px;
+    margin: 10%;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+
+
+/* article */
+article.things {
+    margin: 40px 3% 0;
+}
+article.things h3 {
+    font-size: 1.3em;
+    margin-bottom: 0;
+}
+article.things section {
+    margin-bottom: 40px;
+}
+
+
+
+/* responsive */
+@media screen and (min-width: 980px) {
+    header .img {
+        font-size: 20px;
+    }
+    article.things {
+        font-size: 19px;
+        max-width: 800px;
+        margin: 40px 14% 0;
+    }
+}
