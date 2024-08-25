@@ -18,13 +18,16 @@ figure {
 figure img {
     width: 100%;
     position: relative;
+    min-height: 200px;
+    object-fit: cover;
+    object-position: 15% 100%;
 }
 
 div.title {
     font-size: 14px;
     color: #eee;
     position: absolute;
-    top: 8px;
+    top: 25px;
     margin: 0 10%;
     text-shadow: 3px 3px #111;
 }
