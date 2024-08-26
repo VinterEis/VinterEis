@@ -86,9 +86,13 @@ ul.nav-clicked {
 }
 .nav-clicked li {
     margin: 0;
+    padding: 0;
+    border-top: 1px solid #505050;
+}
+.nav-clicked a {
+    display: block;
     padding: 13px 0;
     text-align: center;
-    border-top: 1px solid #505050;
 }
 
 
