@@ -45,6 +45,7 @@ header .img {
 /* article */
 article.things {
     margin: 40px 3% 0;
+    text-align: justify;
 }
 article.things h3 {
     font-size: 1.3em;
@@ -53,7 +54,7 @@ article.things h3 {
 article.things section {
     margin-bottom: 40px;
 }
-article.things section:nth-child(6) {
+article.things section:nth-child(6) span {
     word-break: break-all;
 }
 
