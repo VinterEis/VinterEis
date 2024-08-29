@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    min-width: fit-content;
 }
 body * {
     color: #444;
