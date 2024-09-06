@@ -36,6 +36,7 @@ section.blogs {
 }
 section.blogs div {
     margin: 20px 2%;
+    max-width: 440px;
 }
 section.blogs figure {
     margin: 0;
