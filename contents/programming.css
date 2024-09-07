@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 div.wrapper {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     color: #414141;
 }
 
@@ -113,6 +113,9 @@ div.lang section {
         font-size: 18px;
         top: 50px;
     }
+    header, div.wrapper {
+        font-size: 1.1em;
+    }
 }
 @media screen and (min-width: 980px) {
     div.title {
@@ -126,5 +129,8 @@ div.lang section {
     figure img {
         height: 440px;
         object-fit: cover;
+    }
+    header, div.wrapper {
+        font-size: 1.3em;
     }
 }
