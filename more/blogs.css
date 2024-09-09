@@ -19,6 +19,7 @@ form.search {
     margin: 40px 0 80px;
 }
 form.search input {
+    box-sizing: border-box;
     width: 80%;
     max-width: 550px;
     height: 40px;
