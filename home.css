@@ -5,9 +5,9 @@
 .wrapper {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0 3%;
 }
 img.home {
-    z-index: -1;
     width: 100%;
     position: relative;
     margin-top: 55px;
@@ -22,7 +22,6 @@ nav {
 
 /* header */
 header {
-    z-index: -1;
     position: absolute;
     color: #fff;
     width: 60%;
@@ -32,10 +31,10 @@ header {
     background: rgba(36, 36, 36, 0.4);
     border-radius: 10px;
     font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header h1 {
-    font-size: 2.9;
     margin-bottom: 8px;
 }
 
@@ -45,7 +44,7 @@ header h1 {
 .main {
     display: block;
     text-align: justify;
-    margin: 40px;
+    margin: 40px 0;
 }
 .main h2 {
     text-align: center;
@@ -54,13 +53,14 @@ header h1 {
 .main section {
     border: 2px solid #fff;
     border-radius: 10px;
-    margin: 10px;
+    margin: 10px 0;
+    padding: 10px;
 }
 .main section a {
     color: #3f3f3f;
 }
 .main p {
-    margin: 10px 20px 25px;
+    margin: 10px 0 25px;
 }
 .main a {
     display: inline-block;
@@ -81,7 +81,7 @@ header h1 {
 article.cool {
     background: #eee;
     text-align: justify;
-    margin: 10px 4%;
+    margin: 10px 0;
     border-radius: 10px;
 }
 article.cool h2 {
