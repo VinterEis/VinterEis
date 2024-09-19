@@ -1,0 +1,142 @@
+body {
+    padding: 0;
+}
+div.wrapper {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 0 3%;
+    color: #3f3f3f;
+    font-size: 1.2rem;
+    letter-spacing: 0.1px;
+    max-width: 1000px;
+}
+
+
+/* header */
+header img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 100% 40%;
+    position: relative;
+}
+header div.title {
+    position: absolute;
+    margin: 0 5%;
+    top: 130px;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+
+/* Arctic */
+section.northPole p {
+    color: #5e5e5e;
+    margin-bottom: 50px;
+}
+div.wrapper section article {
+    margin-bottom: 40px;
+}
+
+
+/* more blogs */
+.moreBlogs {
+    margin: 80px 0;
+    font-size: 0.8em;
+    letter-spacing: 0;
+}
+.moreBlogs h2 {
+    text-align: center;
+}
+.moreBlogs .d-grid div {
+    margin-bottom: 15px;
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.moreBlogs div a.m-img {
+    display: block;
+    aspect-ratio: 16 / 9;
+    background-repeat: no-repeat !important;
+    background-size: 100% auto !important;
+}
+.moreBlogs a.ve {
+    background: #fff;
+    text-decoration: none;
+    color: #5e5e5e;
+    box-shadow: 2px 2px #5e5e5e;
+    width: 100%;
+    margin: 0 3% 0 2%;
+    position: absolute;
+    bottom: -5px;
+}
+a.ve h4, p {
+    margin: 5px;
+}
+
+.d-grid div:hover a {
+    text-decoration: underline;
+}
+
+
+
+/* responsive */
+@media screen and (min-width: 500px) {
+
+    header div.title {
+        top: 150px;
+        font-size: 1.5rem;
+    }
+
+    div.wrapper {
+        font-size: 1.3rem;
+    }
+    
+}
+@media screen and (min-width: 920px) {
+    
+    header img {
+        height: 500px;
+    }
+    header div.title {
+        font-size: 1.8rem;
+        margin: 0 8% 0 4%;
+    }
+    div.wrapper {
+        margin: 0 15% 0 5%;
+        font-size: 1.4rem;
+    }
+
+    /* more blogs */
+    .moreBlogs .d-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3%;
+    }
+    .moreBlogs .d-grid div {
+        margin: 0 0 15px 0;
+    }
+
+}
+@media screen and (min-width: 1200px) {
+    
+    header div.title {
+        font-size: 2rem;
+    }
+    div.wrapper {
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 1500px) {
+
+    header img {
+        height: 600px;
+    }
+    header div.title {
+        font-size: 2.1rem;
+        margin-left: 5%;
+    }
+    div.wrapper {
+        font-size: 1.5rem;
+    }
+}
