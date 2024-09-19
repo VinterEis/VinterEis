@@ -13,6 +13,8 @@ img.home {
     margin-top: 55px;
     height: 300px;
     object-fit: cover;
+    border-bottom: 5px solid #333;
+    border-bottom-style: double;
 }
 nav {
     position: fixed;
@@ -32,6 +34,7 @@ header {
     border-radius: 10px;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 4px solid rgba(158, 158, 158, 0.5);
 }
 
 header h1 {
