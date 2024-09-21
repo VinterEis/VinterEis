@@ -107,6 +107,9 @@ header h1 {
 a.ve h4, p {
     margin: 5px;
 }
+.d-grid div:hover a.ve {
+    text-decoration: underline;
+}
 
 
 /* article */
