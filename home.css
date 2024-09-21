@@ -181,4 +181,13 @@ article.cool a:hover {
     .d-grid div {
         margin: 0 0 15px 0;
     }
+    .d-grid div:hover {
+        background: #dfdfdf;
+        border-radius: 5px;
+    }
+    .d-grid div:hover a.m-img {
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+        margin: auto;
+    }
 }
