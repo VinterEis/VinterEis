@@ -184,6 +184,7 @@ article.cool a:hover {
     .d-grid div:hover {
         background: #dfdfdf;
         border-radius: 5px;
+        align-content: center;
     }
     .d-grid div:hover a.m-img {
         width: calc(100% - 10px);
