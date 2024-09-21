@@ -79,6 +79,35 @@ header h1 {
 }
 
 
+/* more blogs */
+.d-grid div {
+    margin-bottom: 15px;
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.d-grid div a.m-img {
+    display: block;
+    aspect-ratio: 16 / 9;
+    background-repeat: no-repeat !important;
+    background-size: 100% auto !important;
+    border-radius: 5px;
+}
+.d-grid a.ve {
+    background: #fff;
+    text-decoration: none;
+    color: #5e5e5e;
+    box-shadow: 2px 2px #5e5e5e;
+    margin-left: 1%;
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    border-radius: 5px;
+}
+a.ve h4, p {
+    margin: 5px;
+}
+
 
 /* article */
 article.cool {
@@ -130,7 +159,6 @@ article.cool a:hover {
 }
 
 @media screen and (min-width: 980px) {
-    
     header {
         top: 200px
     }
@@ -141,4 +169,13 @@ article.cool a:hover {
         font-size: 1.1em;
     }
 
+    /* more blogs */
+    .d-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3%;
+    }
+    .d-grid div {
+        margin: 0 0 15px 0;
+    }
 }
