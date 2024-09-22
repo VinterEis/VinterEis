@@ -6,16 +6,18 @@ body {
     text-align: justify;
 }
 div.wrapper {
-    margin-top: 35px;
+    max-width: 1200px;
+    margin: 0 auto;
     color: #4b4b4b;
 }
 
 
 /* header */
 header {
-    margin-bottom: 50px;
+    margin: 35px 0 30px;
     border-bottom: 1px solid #b9b9b9;
     padding: 0 3%;
+    color: #4b4b4b;;
 }
 div.title3d {
     text-align: center;
@@ -34,7 +36,7 @@ header img {
 
 /* things to know */
 article.facts {
-    margin: 10px 15% 10px 5%;
+    margin: 10px 5%;
 }
 article h2 {
     font-size: 1.4em;
@@ -121,6 +123,7 @@ figcaption {
     header {
         display: grid;
         grid-template-columns: 3fr 2fr;
+        margin-top: 15px;
     }
     div.title3d {
         text-align: center;
@@ -129,10 +132,6 @@ figcaption {
     }
     body {
         font-size: 18px;
-    }
-    div.software {
-        margin: 0;
-        max-width: 1200px;
     }
     section.grid {
         display: grid;
