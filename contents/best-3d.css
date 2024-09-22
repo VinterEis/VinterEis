@@ -112,6 +112,11 @@ figcaption {
 
 
 /* responsive */
+@media screen and (min-width: 620px) {
+    div.software, article.facts {
+        font-size: 1.1em;
+    }
+}
 @media screen and (min-width: 980px) {
     header {
         display: grid;
