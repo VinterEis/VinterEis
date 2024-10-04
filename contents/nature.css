@@ -62,7 +62,8 @@ div.contents figcaption {
 @media screen and (min-width: 680px) {
     
     div.contents {
-        margin: 50px 15% 0 10%;
+        margin: 50px auto 0;
+        padding: 0 10%;
         max-width: 900px;
         font-size: 18px;
     }
@@ -78,7 +79,6 @@ div.contents figcaption {
 @media screen and (min-width: 980px) {
 
     div.contents {
-        margin: 50px 15% 0 10%;
         max-width: 900px;
         font-size: 20px;
     }
