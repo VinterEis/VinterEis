@@ -45,6 +45,9 @@ section.vinterliv p.initial::first-letter {
 article h3 {
     font-size: 1.2em;
 }
+article section {
+    margin-bottom: 40px;
+}
 article section img {
     max-width: 100%;
     border-radius: 10px;
