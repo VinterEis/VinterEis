@@ -35,28 +35,129 @@
     </div>
 
 
-    <div class="wrapper">
+    
+    <main>
+
         <header>
-            <h1>More on us</h1>
+            <h1>More on VinterEis</h1>
+            <h3 style="color: #000;">This page is still in developments</h3>
         </header>
 
-        <div class="search">
-            <input type="search" name="" id="" placeholder="Search for things">
+        <div class="newblogs">
+            <h2>VinterEis Newest Blogs:</h2>
+            <div>
+                <a href="../contents/winter-things-to-do">
+                    <img src="../contents/img/pexels-visitalmaty-848599.jpg" alt="Ice Age">
+                    <h4>Most Fun Activities to Do in the Winter</h4>
+                </a>
+            </div>
+            <div>
+                <a href="../contents/arctic">
+                    <img src="../contents/img/pexels-therato-1933316.jpg" alt="Arctic">
+                    <h4>Facts About Arctic</h4>
+                </a>
+            </div>
         </div>
 
-        <section class="cName">
-            
-            <a href="" class="block">
-                <div>
-                    <h3>This page is still in developments</h3>
+        <div class="faq">
+            <h2>FAQs</h2>
+            <div class="box">
+                <div class="q">
+                    <h4>What VinterEis actually do <img src="img/caret.png"></h4>
                 </div>
-            </a>
+                <div class="a">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus nesciunt rerum minus velit, ex earum perspiciatis. Provident minus necessitatibus aliquid?</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="q">
+                    <h4>What VinterEis mission <img src="img/caret.png"></h4>
+                </div>
+                <div class="a">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus nesciunt rerum minus velit, ex earum perspiciatis. Provident minus necessitatibus aliquid?</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="q">
+                    <h4>Report VinterEis blog mistakes <img src="img/caret.png"></h4>
+                </div>
+                <div class="a">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus nesciunt rerum minus velit, ex earum perspiciatis. Provident minus necessitatibus aliquid?</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="q">
+                    <h4>Give us advices or suggestions <img src="img/caret.png"></h4>
+                </div>
+                <div class="a">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus nesciunt rerum minus velit, ex earum perspiciatis. Provident minus necessitatibus aliquid?</p>
+                </div>
+            </div>
+        </div>
 
-        </section>
+        <div class="social">
+            <h2>Connect to VinterEis</h2>
+            <div>
+                <a href="https://pin.it/3aU7239xN">Pinterest</a>
+                <a href="">Youtube</a>
+                <a href="">Instagram</a>
+                <a href="">X</a>
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <div class="footer">
+        <div class="footers">
+            <section class="myBlogs">
+                <h4>Visit My Blogs:</h4>
+                <ul>
+                    <li><a href="../contents/antarctic">Facts About Antarctica</a></li>
+                    <li><a href="../contents/fun-facts">Fun Facts</a></li>
+                    <li><a href="../contents/programming">Best programming</a></li>
+                    <li><a href="../contents/best-3d">Best 3D Software</a></li>
+                    <li><a href="blogs">More</a></li>
+                </ul>
+            </section>
+            <section class="social-media">
+                <ul class="social-media">
+                    <h4>Social Media:</h4>
+                    <li><a href="https://pin.it/3aU7239xN"><img src="../img/pinterest-6930796_640.png" alt="Pinterest"> Pinterest</a></li>
+                    <li><a href=""><img src="../img/youtube-1837872_640.png" alt="Youtube"> Youtube</a></li>
+                </ul>
+            </section>
+        </div>
+        <footer>
+            <p>&#169;Copyright VinterEis 2024. All rights reserved.</p>
+        </footer>
     </div>
 
-
+    
     <script src="../nav/nav.js"></script>
+    
+    <script>
+        const quest = document.querySelectorAll('div.q');
+        const ans = document.querySelectorAll('div.a');
+        const carets = document.querySelectorAll('div.q img');
+
+        quest.forEach((x, index) => {
+            x.addEventListener('click', () => {
+                const a = ans[index];
+                const caret = carets[index];
+
+                if(a.style.display === 'block'){
+                    a.style.display = 'none';
+                    caret.style.transform = 'rotate(0deg)';
+                } else {
+                    a.style.display = 'block';
+                    caret.style.transform = 'rotate(180deg)';
+                }
+            });
+        });
+
+    </script>
     
 </body>
 </html>
