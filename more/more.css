@@ -1,55 +1,106 @@
-div.wrapper {
+main {
+    padding: 0 3%;
     color: #494949;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: justify;
+    max-width: 1200px;
+    margin: 0 auto 50px;
+    font-size: 1.1rem;
 }
 
 
 
 header {
     text-align: center;
-    margin: 30px 0 50px;
 }
 
-/* search engine */
-div.search {
+
+/* new blogs */
+div.newblogs {
+    max-width: 800px;
+    margin: 40px 0;
     text-align: center;
 }
-div.search input {
-    width: 80%;
-    max-width: 500px;
-    height: 35px;
-    border: 2px solid #6d6d6d;
-    border-radius: 20px;
-    padding: 0 15px;
-    font-size: 18px;
+div.newblogs div {
+    margin-bottom: 30px;
+}
+div.newblogs a {
+    text-decoration: none;
+    color: #3f3f3f;
+}
+div.newblogs img {
+    width: 100%;
+    border-radius: 5px;
+    max-width: 400px;
+}
+div.newblogs h4 {
+    margin: 0;
+}
+div.newblogs a:hover {
+    text-decoration: underline;
 }
 
-/* contents */
-section.cName {
-    margin: 40px 3%;
+
+/* FAQ */
+.faq {
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: 50px;
 }
-section.cName a.block {
-    text-decoration: none;
-    color: #333;
-}
-section.cName div {
-    margin: 15px 0;
+.faq h4 {
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    border: 1px solid #cfcfcf;
+    margin: 0;
     padding: 5px;
 }
-section.cName h3 {
-    text-align: center;
+.faq p {
+    margin: 10px 0;
+    text-align: justify;
 }
-section.cName a:hover {
-    background: #d8d8d8;
-    border-radius: 10px;
+.faq .box {
+    display: inline-block;
+    width: 100%;
+    margin: 5px 0;
+}
+.faq div.a {
+    display: none;
+    padding: 0 5px;
+}
+.faq div.q img {
+    height: 12px;
+    float: right;
+    padding: 5px;
+}
+
+.faq .box:hover div.q {
+    background: #efefef;
 }
 
 
-@media screen and (min-width: 480px) {
-    section.cName {
+/* social media */
+div.social div a {
+    margin: 2px 0;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #3f3f3f;
+}
+div.social a:hover {
+    background: #3f3f3f;
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+
+@media screen and (min-width: 680px) {
+    div.newblogs {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 3%;
+        gap: 2%;
+    }
+    div.newblogs h2 {
+        grid-column: span 2;
     }
 }
