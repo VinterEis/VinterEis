@@ -1,9 +1,14 @@
 .wrapper {
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 980px;
+    margin: 0 auto;
 }
 
 
 /* header */
+header {
+    font-family: Arial, Helvetica, sans-serif;
+}
 header figure {
     margin: 0;
 }
@@ -12,6 +17,10 @@ figure img {
     height: 350px;
     object-fit: cover;
     position: relative;
+}
+header div {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 header h1 {
     color: #fff;
@@ -76,5 +85,11 @@ section.why {
     article {
         margin-left: 5%;
         margin-right: 20%;
+    }
+}
+@media screen and (min-width: 2500px) {
+    header h1 {
+        margin-left: 2%;
+        top: 350px;
     }
 }
