@@ -58,6 +58,9 @@ article figcaption {
     font-size: 0.8em;
     padding-left: 2%;
 }
+div.iceage article h2 {
+    text-align: left;
+}
 
 
 
