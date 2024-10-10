@@ -5,7 +5,7 @@ body {
     color: #505050;
 }
 div.iceage {
-    margin: 0 3%;
+    padding: 0 3%;
     letter-spacing: 0.1px;
     max-width: 980px;
     text-align: justify;
@@ -17,6 +17,8 @@ header {
     padding: 0 3%;
     padding-bottom: 20px;
     border-bottom: 1px solid #a3a3a3;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 header h1 {
     margin-bottom: 0;
@@ -72,7 +74,8 @@ div.iceage article h2 {
         font-size: 1.1em;
     }
     div.iceage {
-        margin: 0 5%;
+        padding: 0 5%;
+        margin: 0 auto;
     }
     header {
         display: grid;
