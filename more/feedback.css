@@ -5,31 +5,40 @@ body {
 
 
 header {
-    margin: 0 auto;
+    text-align: center;
+    margin: 0 3%;
 }
 
 
 /* contact page */
-main {
-    margin: 20px auto;
-    max-width: 800px;
+main form {
+    margin: 40px auto;
+    max-width: 500px;
+}
+main form h3 {
+    margin: 20px 3%;
+}
+main form * {
+    box-sizing: border-box;
 }
 main div {
-    margin: 10px;
+    margin: 10px 3%;
 }
 main input {
     display: block;
     border-radius: 5px;
     padding: 5px;
     width: 100%;
-    height: 20px;
+    height: 35px;
 }
 main textarea {
     display: block;
     padding: 5px;
     width: 100%;
-    height: 50px;
+    height: 60px;
+    border-radius: 5px;
 }
 main button {
     padding: 5px 10px;
+    margin: 5px 3%;
 }
