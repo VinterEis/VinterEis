@@ -33,6 +33,7 @@ div.newblogs img {
 }
 div.newblogs h4 {
     margin: 0;
+    font-weight: 500;
 }
 div.newblogs a:hover {
     text-decoration: underline;
