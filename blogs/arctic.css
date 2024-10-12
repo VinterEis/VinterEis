@@ -37,6 +37,9 @@ section.northPole p {
 div.wrapper section article {
     margin-bottom: 40px;
 }
+section article h3 {
+    text-align: left;
+}
 section article p {
     margin: 5px 0;
 }
