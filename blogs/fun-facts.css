@@ -71,3 +71,13 @@ article.things section:nth-child(6) span {
         margin: 40px 14% 0;
     }
 }
+@media screen and (min-width: 1400px) {
+    header div.img {
+        top: 50px;
+        margin: 140px 15% 0;
+    }
+    article.things {
+        max-width: 1200px;
+        margin: 40px auto 0;
+    }
+}
