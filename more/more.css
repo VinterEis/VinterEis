@@ -35,7 +35,14 @@ div.newblogs h4 {
     margin: 0;
     font-weight: 500;
 }
-div.newblogs a:hover {
+div.newblogs div:hover img {
+    width: calc(100% - 5px) !important;
+}
+div.newblogs div:hover a {
+    display: inline-block;
+    background: #efefef;
+    padding: 5px;
+    border-radius: 10px;
     text-decoration: underline;
 }
 
