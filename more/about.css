@@ -99,3 +99,9 @@ section.social a:hover {
     }
 
 }
+@media screen and (min-width: 1350px) {
+    .about-wrapper {
+        max-width: 1200px;
+        margin: 10px auto 80px;
+    }
+}
