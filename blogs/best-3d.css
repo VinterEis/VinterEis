@@ -166,3 +166,8 @@ figcaption {
         max-width: 1200px;
     }
 }
+@media screen and (min-width: 1400px) {
+    div.wrapper {
+        margin: 0 auto;
+    }
+}
