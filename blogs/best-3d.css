@@ -14,8 +14,11 @@ div.wrapper {
 
 /* header */
 header {
-    margin: 35px 0 30px;
     border-bottom: 1px solid #b9b9b9;
+    margin: 35px 0 30px;
+}
+header .head {
+    margin: 0 auto;
     padding: 0 3%;
     color: #4b4b4b;;
 }
@@ -121,9 +124,11 @@ figcaption {
 }
 @media screen and (min-width: 980px) {
     header {
+        margin-top: 15px;
+    }
+    header .head {
         display: grid;
         grid-template-columns: 3fr 2fr;
-        margin-top: 15px;
     }
     div.title3d {
         text-align: center;
@@ -154,5 +159,10 @@ figcaption {
     }
     section.grid p.the-features {
         grid-column: span 2;
+    }
+}
+@media screen and (min-width: 1400px) {
+    header .head {
+        max-width: 1200px;
     }
 }
