@@ -96,7 +96,7 @@ section.blogs div:hover img {
 @media screen and (min-width: 1800px) {
     section.blogs {
         max-width: 1900px;
-        margin: 0 auto;
+        margin: 0 auto 40px;
         padding: 0 3%;
     }
 }
