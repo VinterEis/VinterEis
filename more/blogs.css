@@ -25,6 +25,9 @@ form.search input {
     height: 40px;
     border-radius: 15px;
     padding: 0 20px;
+    background: url("../img/search.png") no-repeat;
+    background-size: 15px;
+    background-position: 97%;
 }
 
 
@@ -68,6 +71,11 @@ section.blogs div:hover img {
 }
 
 
+.filtered {
+    display: none !important;
+}
+
+
 
 @media screen and (min-width: 680px) {
     section.blogs {
@@ -80,7 +88,15 @@ section.blogs div:hover img {
         margin: 40px 3%;
     }
 }
-
-.filtered {
-    display: none !important;
+@media screen and (min-width: 1550px) {
+    section.blogs {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media screen and (min-width: 1800px) {
+    section.blogs {
+        max-width: 1900px;
+        margin: 0 auto;
+        padding: 0 3%;
+    }
 }
