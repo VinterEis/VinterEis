@@ -27,7 +27,7 @@ form.search input {
     padding: 0 20px;
     background: url("../img/search.png") no-repeat;
     background-size: 15px;
-    background-position: 97%;
+    background-position: 95%;
 }
 
 
@@ -80,6 +80,9 @@ section.blogs div:hover img {
 @media screen and (min-width: 680px) {
     section.blogs {
         grid-template-columns: 1fr 1fr;
+    }
+    form.search input {
+        background-position: 97%;
     }
 }
 @media screen and (min-width: 980px) {
