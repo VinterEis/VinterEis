@@ -7,22 +7,28 @@ main {
 }
 
 
-
 header {
     text-align: center;
+    font-size: 1rem;
 }
 
 
 /* new blogs */
+div.newblogs * {
+    box-sizing: border-box;
+}
 div.newblogs {
     max-width: 800px;
     margin: 40px 0;
     text-align: center;
 }
 div.newblogs div {
+    display: inline-block;
     margin-bottom: 30px;
+    position: relative;
 }
 div.newblogs a {
+    display: inline-block;
     text-decoration: none;
     color: #3f3f3f;
 }
@@ -32,16 +38,21 @@ div.newblogs img {
     max-width: 400px;
 }
 div.newblogs h4 {
+    background: #fff;
     margin: 0;
+    padding: 2px;
     font-weight: 500;
+    box-shadow: 2px 2px #5e5e5e;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 6px;
 }
 div.newblogs div:hover img {
-    width: calc(100% - 5px) !important;
+    transform: scale(0.97);
 }
 div.newblogs div:hover a {
-    display: inline-block;
     background: #efefef;
-    padding: 5px;
     border-radius: 10px;
     text-decoration: underline;
 }
@@ -73,14 +84,21 @@ div.newblogs div:hover a {
     display: none;
     padding: 0 5px;
 }
+.faq div.q {
+    position: relative;
+}
 .faq div.q img {
+    position: absolute;
     height: 12px;
-    float: right;
+    right: 5px;
     padding: 5px;
+}
+.faq div.q h4 {
+    padding-right: 25px;
 }
 
 .faq .box:hover div.q {
-    background: #efefef;
+    background: #eee;
 }
 
 
@@ -103,6 +121,9 @@ div.social a:hover {
 
 
 @media screen and (min-width: 680px) {
+    header {
+        font-size: 1.1rem;
+    }
     div.newblogs {
         display: grid;
         grid-template-columns: 1fr 1fr;
