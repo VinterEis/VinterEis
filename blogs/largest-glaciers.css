@@ -160,9 +160,6 @@ article div figure figcaption {
     header h1 {
         margin: 25px 0;
     }
-    section.brief p {
-        font-size: 1.1em;
-    }
 }
 @media screen and (min-width: 980px) {
     div.wrapper {
@@ -176,5 +173,8 @@ article div figure figcaption {
     }
     .otherpages div.grid {
         grid-template-columns: repeat(4, 1fr);
+    }
+    section.brief p {
+        font-size: 1.1em;
     }
 }
