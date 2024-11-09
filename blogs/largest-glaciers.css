@@ -78,6 +78,10 @@ div.list a:hover {
 }
 
 
+/* article */
+section.brief p {
+    font-size: 1em;
+}
 article h3 {
     font-size: 1.2em;
 }
@@ -155,6 +159,9 @@ article div figure figcaption {
     }
     header h1 {
         margin: 25px 0;
+    }
+    section.brief p {
+        font-size: 1.1em;
     }
 }
 @media screen and (min-width: 980px) {
