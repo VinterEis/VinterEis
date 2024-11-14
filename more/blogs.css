@@ -9,7 +9,11 @@ div header {
 }
 div header h1 {
     padding: 10px;
-    margin: 20px;
+    margin: 20px 20px 10px;
+}
+div header p {
+    margin: 10px 20px 20px;
+    color: #4f4f4f;
 }
 
 
