@@ -26,6 +26,9 @@ header img {
     object-fit: cover;
     position: relative;
 }
+article.things h3 {
+    text-align: left !important;
+}
 header h1, p {
     color: #111;
     margin: 5px 0;
