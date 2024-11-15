@@ -133,6 +133,10 @@ section.why {
         margin-left: 5%;
         margin-right: 20%;
     }
+    .otherpages {
+        margin-left: 5%;
+        margin-right: 20%;
+    }
     .otherpages div.grid {
         grid-template-columns: repeat(4, 1fr);
     }
