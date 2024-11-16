@@ -52,33 +52,40 @@ header h1 {
 /* sections */
 .main {
     display: block;
-    text-align: justify;
     margin: 40px 0;
 }
 .main h2 {
-    text-align: center;
-    margin: 25px 0 10px;
+    margin: 10px 0;
 }
-.main section {
+.main a {
+    display: inline-block;
     border: 2px solid #fff;
     border-radius: 10px;
     margin: 10px 0;
     padding: 10px;
 }
-.main section a {
+.main a img {
+    width: 100%;
+    max-width: 660px;
+    aspect-ratio: 16 / 9;
+}
+.main a div {
     color: #3f3f3f;
 }
 .main p {
-    margin: 10px 0 25px;
+    margin: 10px 0;
+    text-align: justify;
 }
-.main a {
+.main div {
     display: inline-block;
     text-decoration: none;
-    height: 100%;
     width: 100%;
 }
 .clickable:hover {
     background: #ddd;
+}
+.clickable:hover h2 {
+    text-decoration: underline;
 }
 .clickable a:active {
     color: #818181;
@@ -115,6 +122,18 @@ a.ve h4, p {
 }
 .d-grid div:hover a.ve {
     text-decoration: underline;
+}
+
+
+section.ve-about {
+    background: #4f4f4f;
+    color: aliceblue;
+    padding: 3% 4%;
+    border-radius: 16px;
+    margin-bottom: 40px;
+}
+section.ve-about p {
+    margin: 5px 0 19px;
 }
 
 
@@ -160,9 +179,9 @@ article.cool a:hover {
     .main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 40px;
+        gap: 10px;
     }
-    .main section {
+    .main a {
         margin: 0;
     }
 }
@@ -176,6 +195,13 @@ article.cool a:hover {
     }
     header p {
         font-size: 1.1em;
+    }
+
+    .main {
+        gap: 40px;
+    }
+    .main a {
+        padding: 20px;
     }
 
     /* more blogs */
