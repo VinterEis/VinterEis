@@ -80,6 +80,7 @@ header h1 {
     display: inline-block;
     text-decoration: none;
     width: 100%;
+    border-bottom: 1px solid #bfbfbf;
 }
 .clickable:hover {
     background: #ddd;
@@ -187,6 +188,10 @@ article.cool a:hover {
 }
 
 @media screen and (min-width: 980px) {
+    .wrapper {
+        padding: 0 4%;
+    }
+    
     header {
         top: 200px;
     }
