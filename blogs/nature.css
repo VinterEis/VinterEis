@@ -35,7 +35,6 @@ header figcaption {
 }
 
 
-
 /* contents */
 div.contents {
     margin: 50px 3% 0;
@@ -54,6 +53,52 @@ div.contents p {
 div.contents figcaption {
     font-size: 0.9em;
     color: #505050;
+}
+
+
+/* other blogs */
+.otherblogs {
+    margin: 80px 0 !important;
+}
+.otherblogs a {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.otherblogs h3 {
+    text-align: center;
+    margin: 50px 0 35px;
+}
+.otherblogs div.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    row-gap: 15px;
+}
+.otherblogs .img {
+    max-width: 430px;
+    aspect-ratio: 3 / 2;
+    background-size: cover !important;
+    position: relative;
+}
+.otherblogs .img div {
+    width: 100%;
+    background: #fff;
+    color: #000;
+    padding: 2px;
+    position: absolute;
+    bottom: -5px;
+    border: 0.3px solid #9f9f9f;
+    border-radius: 4px;
+}
+.otherblogs h6 {
+    margin: 0;
+}
+.otherblogs a:hover h6 {
+    color: #0088ff;
+    text-decoration: underline;
+}
+.otherblogs a.img:hover {
+    background-size: 110% !important;
+    background-position: center !important;
 }
 
 
@@ -88,6 +133,17 @@ div.contents figcaption {
     }
     header img {
         height: 450px;
+    }
+
+}
+@media screen and (min-width: 1350px) {
+
+    div.title {
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 1079.25px;
+        width: 100%;
+        margin: 0 auto;
     }
 
 }
