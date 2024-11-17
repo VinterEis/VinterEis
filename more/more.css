@@ -10,6 +10,7 @@ main {
 header {
     text-align: center;
     font-size: 1rem;
+    border-bottom: 1px solid #bfbfbf;
 }
 
 
@@ -72,7 +73,8 @@ div.newblogs div:hover a {
     padding: 5px;
 }
 .faq p {
-    margin: 10px 0;
+    margin: 0 0 10px;
+    padding-top: 10px;
     text-align: justify;
 }
 .faq .box {
@@ -83,6 +85,7 @@ div.newblogs div:hover a {
 .faq div.a {
     display: none;
     padding: 0 5px;
+    border-left: 4px solid aliceblue;
 }
 .faq div.q {
     position: relative;
@@ -107,14 +110,15 @@ div.social div a {
     margin: 2px 0;
     display: inline-block;
     padding: 5px 10px;
-    border: 1px solid #cfcfcf;
-    border-radius: 5px;
+    border: 2px solid #cfcfcf;
+    border-radius: 10px;
     text-decoration: none;
     color: #3f3f3f;
 }
 div.social a:hover {
     background: #3f3f3f;
-    color: #fff;
+    border-color: #3d3d3d;
+    color: #fffafa;
     text-decoration: underline;
 }
 
