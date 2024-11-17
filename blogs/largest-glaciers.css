@@ -140,6 +140,10 @@ article div figure figcaption {
     color: #0088ff;
     text-decoration: underline;
 }
+.otherpages a.img:hover {
+    background-size: 105% !important;
+    background-position: center !important;
+}
 
 
 @media screen and (min-width: 442px) {
