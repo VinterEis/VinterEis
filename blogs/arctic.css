@@ -44,6 +44,17 @@ section article h3 {
 section article p {
     margin: 5px 0;
 }
+article figure {
+    margin: 0;
+}
+article figure img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+article figure figcaption {
+    font-size: 0.8em;
+    color: #808080;
+}
 
 
 /* more blogs */
