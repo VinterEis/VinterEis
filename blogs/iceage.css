@@ -43,7 +43,7 @@ header figcaption {
 
 /* article */
 ol {
-    padding-left: 15px;
+    padding: 0 15px;
 }
 article {
     margin: 55px 0;
@@ -126,7 +126,7 @@ div.iceage article h2 {
         display: grid;
         grid-template-columns: 3fr 2fr;
         gap: 2%;
-        margin-top: 25px;
+        margin-top: 35px;
         padding: 0 2%;
     }
     header div.title {
