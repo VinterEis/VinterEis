@@ -56,7 +56,7 @@ article.things h3 {
 article.things section {
     margin-bottom: 40px;
 }
-article.things section:nth-child(6) span {
+article.things section:nth-child(7) span {
     word-break: break-all;
 }
 
