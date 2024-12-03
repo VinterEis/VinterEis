@@ -31,10 +31,14 @@ header div.title {
 
 
 /* Arctic */
+section.northPole h2 {
+    margin-top: 30px;
+}
 section.northPole p {
     color: #5e5e5e;
-    margin-bottom: 50px;
+    margin: 5px 0 50px 0;
 }
+
 div.wrapper section article {
     margin-bottom: 40px;
 }
