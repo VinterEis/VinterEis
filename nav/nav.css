@@ -100,7 +100,7 @@ ul.nav-clicked {
 /* footer */
 div.footer {
     margin-top: auto;
-    font-size: 15px;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     background: #222;
     color: #eee;
@@ -109,11 +109,12 @@ div.footer .footers {
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: #ddd;
-    padding: 20px 3% 5px;
-    margin-top: 15px;
+    padding: 30px 3% 5px;
+    max-width: 1400px;
+    margin: 15px auto 0;
 }
 div.footer section.myBlogs {
-    padding: 10px 5px 5px 0;
+    padding: 0 5px 5px 0;
     justify-self: center;
 }
 div.footer ul {
@@ -138,10 +139,12 @@ div.footer .footers h4 {
 
 div.footer .social-media {
     border-left: 2px solid #999;
-    padding: 5px 0;
+    padding: 0;
 }
 div.footer ul.social-media {
     padding-left: 10%;
+    padding-bottom: 5px;
+    justify-self: center;
     border-left: none;
 }
 div.footer section.social-media a {
@@ -166,6 +169,12 @@ div.footer p {
 
 
 /* resposive styles */
+@media screen and (min-width: 420px) {
+    div.footer {
+        font-size: 15px;
+    }
+}
+
 @media screen and (min-width: 680px) {
 
     nav a {
@@ -174,11 +183,18 @@ div.footer p {
     div.footer {
         font-size: 16px;
     }
+    div.footer .footers {
+        grid-template-columns: 2fr 1fr;
+    }
     div.nav-icon {
         display: none;
     }
     div ul.nav-menu {
         display: flex;
+    }
+    div.footer ul.social-media {
+        padding-left: 20px !important;
+        justify-self: left;
     }
 
 }
