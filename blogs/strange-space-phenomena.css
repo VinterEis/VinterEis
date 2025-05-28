@@ -1,0 +1,135 @@
+div.wrapper {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 4%;
+    color: #303030;
+}
+div.wrapper * {
+    box-sizing: border-box;
+}
+div.wrapper p {
+    color: #202020;
+}
+
+
+main, header, .VEBlogs {
+    max-width: 980px;
+    margin: 0 auto 40px;
+}
+
+header h1 {
+    margin: 20px 0 0;
+    font-size: 2.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header div.the-title {
+    border-bottom: 1px solid #ccc;
+    margin: 40px 0 60px;
+}
+header div.the-title p {
+    color: #3f3f3f;
+}
+header h1::first-letter {
+    font-size: 1.02em;
+}
+header figure {
+    margin: 0;
+}
+header figure img {
+    width: 100%;
+    max-width: 480px;
+    object-fit: cover;
+}
+header figure figcaption {
+    color: #505050;
+    font-size: 0.8em;
+}
+
+main article section {
+    margin-bottom: 30px;
+}
+main article h3 {
+    font-size: 1.2em;
+}
+main figure {
+    margin: 0;
+}
+main figure img {
+    max-width: 100%;
+    max-height: 380px;
+}
+main figcaption {
+    color: #505050;
+    font-size: 0.8em;
+}
+
+
+/* other blogs */
+.VEBlogs {
+    margin: 80px auto !important;
+}
+.VEBlogs a {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.VEBlogs h3 {
+    text-align: center;
+    margin: 50px 0 35px;
+}
+.VEBlogs div.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    row-gap: 15px;
+}
+.VEBlogs .img {
+    max-width: 430px;
+    aspect-ratio: 3 / 2;
+    background-size: cover !important;
+    position: relative;
+}
+.VEBlogs .img div {
+    width: 100%;
+    background: #fff;
+    color: #000;
+    padding: 2px;
+    position: absolute;
+    bottom: -5px;
+    border: 0.3px solid #9f9f9f;
+    border-radius: 4px;
+}
+.VEBlogs h6 {
+    margin: 0;
+}
+.VEBlogs a:hover h6 {
+    color: #0088ff;
+    text-decoration: underline;
+}
+.VEBlogs a.img:hover {
+    background-size: 110% !important;
+    background-position: center !important;
+}
+
+
+
+@media screen and (min-width: 480px) {
+    div.wrapper {
+        font-size: 1.1em;
+    }
+}
+@media screen and (min-width: 680px) {
+    div.wrapper {
+        font-size: 1.15em;
+    }
+}
+@media screen and (min-width: 980px) {
+    div.wrapper {
+        font-size: 1.2em;
+    }
+    .VEBlogs div.grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media screen and (min-width: 1280px) {
+    div.wrapper {
+        font-size: 1.3em;
+    }
+}
