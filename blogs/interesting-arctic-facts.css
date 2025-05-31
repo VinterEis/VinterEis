@@ -3,11 +3,9 @@ body {
 }
 div.wrapper {
     font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
     margin: 0 3%;
     color: #3f3f3f;
-    font-size: 1.1rem;
-    letter-spacing: 0.1px;
+    font-size: 1rem;
     max-width: 1000px;
 }
 
@@ -117,9 +115,6 @@ a.ve h4, p {
 }
 @media screen and (min-width: 920px) {
 
-    div.wrapper {
-        font-size: 1.2rem;
-    }
     header img {
         height: 500px;
     }
