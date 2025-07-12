@@ -8,6 +8,7 @@ div.wrapper * {
 }
 div.wrapper p {
     color: #202020;
+    line-height: 1.5;
 }
 
 
