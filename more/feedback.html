@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="icon" type="image/png" href="../assets/images/VinterEis.png">
+    <link rel="stylesheet" href="css/feedback.css">
+    <link rel="stylesheet" href="../nav/nav.css">
+</head>
+<body>
+
+    <div class="wrapper-nav">
+
+        <nav>
+            <ul>
+                <li><a href="../" class="nav-VinterEis">VinterEis</a></li>
+            </ul>
+
+            <div class="nav-icon">
+                <div class="nav-menu-icon"></div>
+                <div class="nav-menu-icon"></div>
+                <div class="nav-menu-icon"></div>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="../">Home</a></li>
+                <li><a href="blogs">Blogs</a></li>
+                <li><a href="feedback">Feedback</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="more">More</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+    <div class="feedback-cover">
+        <!-- Remove dev when page is finished -->
+        <div class="dev">
+            <h3>THIS PAGE IS STILL IN DEVELOPMENT</h3>
+        </div>
+        <header>
+            <h1>Feed back VinterEis</h1>
+            <p>Send VinterEis feedback to help us improve</p>
+        </header>
+
+        <main>
+            <form action="" method="POST" data-netlify="true">
+                <div class="brief">
+                    <h3>Share Your Feedback</h3>
+                    <p>By sending your feedback—whether it's advice, an issue, or a bugs—it helps me to improve this website and provide better contents.</p>
+                </div>
+                
+                <div>
+                    <label for="username">USERNAME:</label>
+                    <input type="text" name="username" id="username" placeholder="Enter Your Name" class="b-colour" required>
+                </div>
+                <div>
+                    <label for="email">EMAIL:</label>
+                    <input type="email" name="userEmail" id="email" placeholder="Enter Your Email" class="b-colour" required>
+                </div>
+                <div>
+                    <label for="specify">WHAT'S YOUR FEEDBACK ABOUT:</label>
+                    <select name="feedbackOptions" id="specify" required>
+                        <option value="" selected disabled class="disabled">Please select an option</option>
+                        <option value="advice">Advice or Suggestion</option>
+                        <option value="issue">Bugs or Issues</option>
+                        <option value="mistake">Mistakes</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="messages">MESSAGE:</label>
+                    <textarea name="" id="messages" placeholder="Send us a message" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    </div>
+
+
+    
+    <div class="footer">
+        <div class="footers">
+            <section class="myBlogs">
+                <h4>Visit My Blogs:</h4>
+                <ul>
+                    <li><a href="../blogs/antarctica-facts">Facts About Antarctica</a></li>
+                    <li><a href="../blogs/fun-facts">Fun Facts</a></li>
+                    <li><a href="../blogs/best-programming-language-to-learn">Best programming</a></li>
+                    <li><a href="../blogs/best-3d-modelling-animation-software">Best 3D Software</a></li>
+                    <li><a href="blogs">More</a></li>
+                </ul>
+            </section>
+            <section class="social-media">
+                <ul class="social-media">
+                    <h4>Social Media:</h4>
+                    <li><a href="https://pin.it/3aU7239xN"><img src="../assets/images/pinterest-6930796_640.png" alt="Pinterest"> Pinterest</a></li>
+                    <li><a href=""><img src="../assets/images/youtube-1837872_640.png" alt="Youtube"> Youtube</a></li>
+                </ul>
+            </section>
+        </div>
+        <footer>
+            <p>&#169;Copyright VinterEis 2024. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="../nav/nav.js"></script>
+    
+</body>
+</html>

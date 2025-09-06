@@ -1,0 +1,109 @@
+.wrapper {
+    margin: 0;
+}
+
+
+div header {
+    text-align: center;
+    font-size: 18px;
+}
+div header h1 {
+    padding: 10px;
+    margin: 20px 20px 10px;
+}
+div header p {
+    margin: 10px 20px 20px;
+    color: #4f4f4f;
+}
+
+
+/* search */
+form.search {
+    text-align: center;
+    margin: 40px 0 80px;
+}
+form.search input {
+    box-sizing: border-box;
+    width: 80%;
+    max-width: 550px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 0 20px;
+    background: url("../img/search.png") no-repeat;
+    background-size: 15px;
+    background-position: 95%;
+}
+
+
+/* blogs */
+section.blogs {
+    margin: 40px 2%;
+    display: grid;
+    justify-content: center;
+    list-style: none;
+}
+section.blogs div {
+    margin: 20px 2%;
+    max-width: 440px;
+}
+section.blogs figure {
+    margin: 0;
+}
+section.blogs img {
+    width: 100%;
+    max-width: 440px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+section.blogs h3 {
+    margin: 5px 0;
+}
+section.blogs a {
+    text-decoration: none;
+    color: #2f4f4f;
+}
+
+/* hover effects */
+section.blogs div:hover {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+}
+section.blogs div:hover img {
+    height: 180px;
+}
+
+
+.filtered {
+    display: none !important;
+}
+
+
+
+@media screen and (min-width: 680px) {
+    section.blogs {
+        grid-template-columns: 1fr 1fr;
+    }
+    form.search input {
+        background-position: 97%;
+    }
+}
+@media screen and (min-width: 980px) {
+    section.blogs {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 40px 3%;
+    }
+}
+@media screen and (min-width: 1550px) {
+    section.blogs {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media screen and (min-width: 1800px) {
+    section.blogs {
+        max-width: 1900px;
+        margin: 0 auto 40px;
+        padding: 0 3%;
+    }
+}

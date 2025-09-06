@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More</title>
+    <link rel="icon" type="image/png" href="../assets/images/VinterEis.png">
+    <link rel="stylesheet" href="css/more.css">
+    <link rel="stylesheet" href="../nav/nav.css">
+</head>
+<body>
+
+    <div class="wrapper-nav">
+
+        <nav>
+            <ul>
+                <li><a href="../" class="nav-VinterEis">VinterEis</a></li>
+            </ul>
+
+            <div class="nav-icon">
+                <div class="nav-menu-icon"></div>
+                <div class="nav-menu-icon"></div>
+                <div class="nav-menu-icon"></div>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="../">Home</a></li>
+                <li><a href="blogs">Blogs</a></li>
+                <li><a href="feedback">Feedback</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="more">More</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+    
+    <main>
+
+        <header>
+            <h1>More on VinterEis</h1>
+            <p style="color: #000;">See VinterEis latest posts and FAQs</p>
+        </header>
+
+        <div class="newblogs">
+            <h2>VinterEis Latest Blogs:</h2>
+            <div>
+                <a href="../blogs/how-to-make-money-online">
+                    <img src="../blogs/assets/images/img/pexels-vlada-karpovich-9969253 (1).jpg" alt="Illustration">
+                    <h4>Ways to Make Income Online</h4>
+                </a>
+            </div>
+            <div>
+                <a href="../blogs/strange-phenomena-in-space">
+                    <img src="../blogs/assets/images/img-space/galactic-wind.jpg" alt="Galactic Wind Illustration">
+                    <h4>Strange Phenomena in Space</h4>
+                </a>
+            </div>
+        </div>
+
+        <div class="faq">
+            <h2>FAQs</h2>
+            <div class="box">
+                <div class="q">
+                    <h4>What VinterEis actually do? <img src="../assets/images/caret.png"></h4>
+                </div>
+                <div class="a">
+                    <p>VinterEis mission is to create engaging blogs whose purpose is to share information and opinions about particular things.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="q">
+                    <h4>How often VinterEis publish its content? <img src="../assets/images/caret.png"></h4>
+                </div>
+                <div class="a">
+                    <p>Well it depends, usually it takes a month to two months for new blogs to be published.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="q">
+                    <h4>Report VinterEis blog mistakes <img src="../assets/images/caret.png"></h4>
+                </div>
+                <div class="a">
+                    <p>Currently not available.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="q">
+                    <h4>Give us advices or suggestions <img src="../assets/images/caret.png"></h4>
+                </div>
+                <div class="a">
+                    <p>Currently not available.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="social">
+            <h2>Connect to VinterEis</h2>
+            <div>
+                <a href="https://pin.it/3aU7239xN">Pinterest</a>
+                <a href="">Youtube</a>
+                <!-- <a href="">Instagram</a>
+                <a href="">X</a> -->
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <div class="footer">
+        <div class="footers">
+            <section class="myBlogs">
+                <h4>Visit My Blogs:</h4>
+                <ul>
+                    <li><a href="../blogs/antarctica-facts">Facts About Antarctica</a></li>
+                    <li><a href="../blogs/fun-facts">Fun Facts</a></li>
+                    <li><a href="../blogs/best-programming-language-to-learn">Best programming</a></li>
+                    <li><a href="../blogs/best-3d-modelling-animation-software">Best 3D Software</a></li>
+                    <li><a href="blogs">More</a></li>
+                </ul>
+            </section>
+            <section class="social-media">
+                <ul class="social-media">
+                    <h4>Social Media:</h4>
+                    <li><a href="https://pin.it/3aU7239xN"><img src="../assets/images/pinterest-6930796_640.png" alt="Pinterest"> Pinterest</a></li>
+                    <li><a href="https://youtube.com/@freezespace?si=UeEzdpA0PYwxZBeI"><img src="../assets/images/youtube-1837872_640.png" alt="Youtube"> Youtube</a></li>
+                </ul>
+            </section>
+        </div>
+        <footer>
+            <p>&#169;Copyright VinterEis 2024. All rights reserved.</p>
+        </footer>
+    </div>
+
+    
+    <script src="../nav/nav.js"></script>
+    
+    <script>
+        const quest = document.querySelectorAll('div.q');
+        const ans = document.querySelectorAll('div.a');
+        const carets = document.querySelectorAll('div.q img');
+
+        quest.forEach((x, index) => {
+            x.addEventListener('click', () => {
+                const a = ans[index];
+                const caret = carets[index];
+
+                if(a.style.display === 'block'){
+                    a.style.display = 'none';
+                    caret.style.transform = 'rotate(0deg)';
+                } else {
+                    a.style.display = 'block';
+                    caret.style.transform = 'rotate(180deg)';
+                }
+            });
+        });
+
+    </script>
+    
+</body>
+</html>
