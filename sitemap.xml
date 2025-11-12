@@ -17,11 +17,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://vintereis.com/more/feedback</loc>
-  <lastmod>2025-09-06T04:27:34+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://vintereis.com/more/about</loc>
   <lastmod>2025-09-06T04:27:34+00:00</lastmod>
   <priority>0.80</priority>
@@ -30,6 +25,26 @@
   <loc>https://vintereis.com/more/more</loc>
   <lastmod>2025-09-06T04:27:34+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vintereis.com/more/feedback</loc>
+  <lastmod>2025-09-06T04:27:34+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://vintereis.com/more/contact</loc>
+  <lastmod>2025-11-12T15:49:22+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://vintereis.com/privacy-policy</loc>
+  <lastmod>2025-11-12T15:49:22+00:00</lastmod>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://vintereis.com/cookie-policy</loc>
+  <lastmod>2025-11-12T15:49:22+00:00</lastmod>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>https://vintereis.com/blogs/most-breathtaking-natural-landscapes</loc>
@@ -94,6 +109,11 @@
 <url>
   <loc>https://vintereis.com/blogs/strangest-weather-ever-recorded</loc>
   <lastmod>2025-09-06T04:27:34+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://vintereis.com/blogs/hidden-titanic-facts-and-stories</loc>
+  <lastmod>2025-11-12T15:49:22+00:00</lastmod>
   <priority>0.90</priority>
 </url>
 
