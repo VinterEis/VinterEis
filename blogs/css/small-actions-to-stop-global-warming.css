@@ -1,0 +1,149 @@
+.wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+
+/* header */
+header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header figure {
+    margin: 0;
+}
+figure img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    position: relative;
+}
+header div {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header h1 {
+    color: #fff;
+    background: rgba(1, 1, 1, 0.2);
+    position: absolute;
+    top: 200px;
+    margin: 0 15% 0 5%;
+    border-radius: 5px;
+}
+header figcaption {
+    font-size: 0.9em;
+    margin-left: 3%;
+}
+
+
+/* article */
+article {
+    margin: 25px 3%;
+    font-size: 1.05em;
+    letter-spacing: 0.3px;
+    color: #3a3a3a;
+}
+article h3 {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+article section {
+    margin: 40px 0;
+}
+
+section.why {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+
+/* other blogs */
+.otherpages {
+    margin: 40px 3%;
+}
+.otherpages a {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.otherpages h3 {
+    text-align: center;
+    margin: 50px 0 35px;
+}
+.otherpages div.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    row-gap: 15px;
+}
+.otherpages .img {
+    max-width: 430px;
+    aspect-ratio: 3 / 2;
+    background-size: cover !important;
+    position: relative;
+}
+.otherpages .img div {
+    width: 100%;
+    background: #fff;
+    color: #000;
+    padding: 2px;
+    position: absolute;
+    bottom: -5px;
+    border: 0.3px solid #9f9f9f;
+    border-radius: 4px;
+}
+.otherpages h6 {
+    margin: 0;
+}
+.otherpages a:hover h6 {
+    color: #0088ff;
+    text-decoration: underline;
+}
+
+
+
+
+
+/* responsive */
+@media screen and (min-width: 551px) {
+    header h1 {
+        top: 230px;
+    }
+    article {
+        font-size: 1.1em;
+    }
+}
+@media screen and (min-width: 680px) {
+    figure img {
+        height: 480px;
+    }
+    header h1 {
+        font-size: 2.1em;
+        top: 280px;
+        margin-right: 25%;
+    }
+    article section.why {
+        font-size: 1.1em;
+    }
+}
+@media screen and (min-width: 980px) {
+    header h1 {
+        font-size: 2.3em;
+        top: 300px;
+    }
+    article {
+        margin-left: 5%;
+        margin-right: 20%;
+    }
+    .otherpages {
+        margin-left: 5%;
+        margin-right: 20%;
+    }
+    .otherpages div.grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media screen and (min-width: 2500px) {
+    header h1 {
+        margin-left: 2%;
+        top: 350px;
+    }
+}

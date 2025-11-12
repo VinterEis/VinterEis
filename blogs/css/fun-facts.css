@@ -1,0 +1,154 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+body * {
+    color: #333;
+}
+.wrapper h3, h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+header {
+    text-align: center;
+}
+figure {
+    margin: 0;
+    text-align: left;
+}
+header figcaption {
+    padding-left: 3%;
+}
+header img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+}
+article.things h3 {
+    text-align: left !important;
+}
+header h1, p {
+    color: #000;
+    margin: 5px 0;
+}
+header .img {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    top: 80px;
+    margin: 10%;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+
+/* article */
+article.things {
+    margin: 40px 3% 0;
+    text-align: justify;
+}
+article.things h3 {
+    font-size: 1.3em;
+    margin-bottom: 0;
+}
+article.things section {
+    margin-bottom: 40px;
+}
+article.things section:nth-child(7) span {
+    word-break: break-all;
+}
+
+
+/* other blogs */
+.otherpages {
+    margin: 80px auto;
+    padding: 0 3%;
+}
+.otherpages a {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.otherpages h3 {
+    text-align: center;
+    margin: 50px 0 35px;
+}
+.otherpages div.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    row-gap: 15px;
+}
+.otherpages .img {
+    max-width: 430px;
+    aspect-ratio: 3 / 2;
+    background-size: cover !important;
+    position: relative;
+    border-radius: 4px;
+}
+.otherpages .img div {
+    width: 100%;
+    background: #fff;
+    color: #000;
+    padding: 2px;
+    position: absolute;
+    bottom: -5px;
+    border: 0.3px solid #9f9f9f;
+    border-radius: 4px;
+}
+.otherpages h6 {
+    margin: 0;
+}
+.otherpages a:hover h6 {
+    color: #0088ff;
+    text-decoration: underline;
+}
+.otherpages a:hover {
+    transform: scale(0.98);
+}
+
+
+
+/* responsive */
+@media screen and (min-width: 480px) {
+    article.things {
+        font-size: 19px;
+    }
+}
+@media screen and (min-width: 680px) {
+    article.things {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 980px) {
+    header .img {
+        font-size: 20px;
+    }
+    article.things {
+        font-size: 21px;
+        max-width: 800px;
+        margin: 40px 14% 0;
+    }
+    .otherpages div.grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .otherpages {
+        padding: 0;
+        margin: 80px 14%;
+        max-width: 800px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    header div.img {
+        top: 50px;
+        margin: 140px 15% 0;
+    }
+    article.things {
+        max-width: 950px;
+        margin: 40px auto 0;
+    }
+    .otherpages {
+        margin: 80px auto;
+        max-width: 950px;
+    }
+}
