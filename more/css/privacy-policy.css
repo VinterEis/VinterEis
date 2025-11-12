@@ -1,0 +1,41 @@
+div.container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 5% 50px;
+    letter-spacing: 0.1px;
+    line-height: 1.5;
+}
+
+section.header {
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.container section {
+    margin-bottom: 50px;
+}
+.container p, li, th, td {
+    color: #2f2f2f;
+    font-size: 1.1em;
+}
+.italicize {
+    font-style: italic;
+}
+
+table, th, td {
+    border: 1px solid #979797;
+    border-spacing: 0;
+}
+th, td {
+    padding: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+    div.container {
+        padding: 50px 20px;
+    }
+    .container p, li, th, td {
+        font-size: 1.2em;
+    }
+}
