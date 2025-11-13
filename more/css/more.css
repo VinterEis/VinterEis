@@ -102,7 +102,6 @@ div.newblogs div:hover a {
     position: absolute;
     top: 5.5px;
     right: 10px;
-    transition: transform 0.2s ease;
 }
 .faq h4.showBox::after {
     transform: rotate(180deg);
