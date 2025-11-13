@@ -63,7 +63,7 @@
             <h2>FAQs</h2>
             <div class="box">
                 <div class="q">
-                    <h4>What VinterEis actually do? <img src="../assets/images/caret.png"></h4>
+                    <h4>What VinterEis actually do?</h4>
                 </div>
                 <div class="a">
                     <p>VinterEis mission is to create engaging blogs whose purpose is to share information and opinions about particular things.</p>
@@ -71,7 +71,7 @@
             </div>
             <div class="box">
                 <div class="q">
-                    <h4>How often VinterEis publish its content? <img src="../assets/images/caret.png"></h4>
+                    <h4>How often VinterEis publish its content?</h4>
                 </div>
                 <div class="a">
                     <p>Well it depends, usually it takes a month to two months for new blogs to be published.</p>
@@ -79,7 +79,7 @@
             </div>
             <div class="box">
                 <div class="q">
-                    <h4>Report VinterEis blog mistakes or bugs <img src="../assets/images/caret.png"></h4>
+                    <h4>Report VinterEis blog mistakes or bugs</h4>
                 </div>
                 <div class="a">
                     <p>Currently not available. Visit our <a href="feedback">Feedback</a> page for more information.</p>
@@ -87,7 +87,7 @@
             </div>
             <div class="box">
                 <div class="q">
-                    <h4>Give us advices or suggestions <img src="../assets/images/caret.png"></h4>
+                    <h4>Give us advices or suggestions</h4>
                 </div>
                 <div class="a">
                     <p>Currently not available. Visit our <a href="feedback">Feedback</a> page for more information.</p>
@@ -95,7 +95,7 @@
             </div>
             <div class="box">
                 <div class="q">
-                    <h4>Contact us <img src="../assets/images/caret.png"></h4>
+                    <h4>Contact us</h4>
                 </div>
                 <div class="a">
                     <p>Currently not available. Visit our <a href="contact">Contact</a> page for more information.</p>
@@ -103,7 +103,7 @@
             </div>
             <div class="box">
                 <div class="q">
-                    <h4>Privacy Policy <img src="../assets/images/caret.png"></h4>
+                    <h4>Privacy Policy</h4>
                 </div>
                 <div class="a">
                     <p>Visit our <a href="../privacy-policy">Privacy Policy</a> page for more information.</p>
@@ -111,7 +111,7 @@
             </div>
             <div class="box">
                 <div class="q">
-                    <h4>Cookie Policy <img src="../assets/images/caret.png"></h4>
+                    <h4>Cookie Policy</h4>
                 </div>
                 <div class="a">
                     <p>Visit our <a href="../cookie-policy">Cookie Policy</a> page for more information.</p>
@@ -173,7 +173,7 @@
     <script>
         const quest = document.querySelectorAll('div.q');
         const ans = document.querySelectorAll('div.a');
-        const carets = document.querySelectorAll('div.q img');
+        const carets = document.querySelectorAll('.faq h4');
 
         quest.forEach((x, index) => {
             x.addEventListener('click', () => {
@@ -182,10 +182,10 @@
 
                 if(a.style.display === 'block'){
                     a.style.display = 'none';
-                    caret.style.transform = 'rotate(0deg)';
+                    caret.classList.remove('showBox');
                 } else {
                     a.style.display = 'block';
-                    caret.style.transform = 'rotate(180deg)';
+                    caret.classList.add('showBox');
                 }
             });
         });

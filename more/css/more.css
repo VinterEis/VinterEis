@@ -90,16 +90,23 @@ div.newblogs div:hover a {
 .faq div.q {
     position: relative;
 }
-.faq div.q img {
-    position: absolute;
-    height: 12px;
-    right: 5px;
-    padding: 5px;
-}
 .faq div.q h4 {
     padding-right: 25px;
 }
-
+.faq h4::after {
+    content: "";
+    display: inline-block;
+    background: url("../../assets/images/caret.png") no-repeat center / contain;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5.5px;
+    right: 10px;
+    transition: transform 0.2s ease;
+}
+.faq h4.showBox::after {
+    transform: rotate(180deg);
+}
 .faq .box:hover div.q {
     background: #eee;
 }
