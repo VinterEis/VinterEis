@@ -1,6 +1,7 @@
 # Redirect pages (301)
 /blogs/strange-space-phenomena   /blogs/strange-phenomena-in-space   301
 /blogs/winter-things-to-do   /blogs/fun-things-to-do-in-winter   301
+/index.html   /  301
 
 # 410
 /blogs/antarctic   /410.html   410
