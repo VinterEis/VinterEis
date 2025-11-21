@@ -1,5 +1,5 @@
 body {
-    background: #fff;
+    background: #eee;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -9,6 +9,9 @@ div.wrapper {
     max-width: 1200px;
     margin: 0 auto;
     color: #4b4b4b;
+}
+article p {
+    line-height: 1.4;
 }
 
 
@@ -43,6 +46,8 @@ article.facts {
 }
 article h2 {
     font-size: 1.4em;
+    border-left: 10px solid #30b0fa;
+    padding-left: 15px;
 }
 
 
@@ -51,7 +56,11 @@ div.menulist {
     padding: 30px 0.9em 0;
     margin: 0 5%;
 }
-div.menulist h2, ol {
+div.menulist h2 {
+    border-left: 10px solid #009a00;
+    padding-left: 15px;
+}
+div.menulist ol {
     padding-left: 0.9em;
 }
 .menulist ol {
@@ -64,7 +73,7 @@ div.menulist h2, ol {
     display: inline-flex;
     content: counter(olstyle);
     counter-increment: olstyle;
-    background: #616161;
+    background: #0188c2;
     color: #fff;
     border-radius: 20px;
     width: 29px;
