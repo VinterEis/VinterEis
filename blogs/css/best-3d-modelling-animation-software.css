@@ -41,10 +41,10 @@ header img {
 
 
 /* things to know */
-article.facts {
+div.facts {
     margin: 10px 5%;
 }
-article h2 {
+div.facts h2 {
     font-size: 1.4em;
     border-left: 10px solid #30b0fa;
     padding-left: 15px;
