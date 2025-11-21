@@ -171,8 +171,8 @@ figcaption {
 
 /* responsive */
 @media screen and (min-width: 620px) {
-    article.facts {
-        font-size: 1.1em;
+    article p {
+        font-size: 18px;
     }
 }
 @media screen and (min-width: 980px) {
