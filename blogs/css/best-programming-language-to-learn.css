@@ -5,6 +5,7 @@ body {
 div.wrapper, figcaption {
     font-family: 'Times New Roman', Times, serif;
     color: #414141;
+    line-height: 1.4;
 }
 
 
