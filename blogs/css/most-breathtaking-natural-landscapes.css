@@ -39,6 +39,7 @@ header figcaption {
 div.contents {
     margin: 50px 3% 0;
     text-align: justify;
+    line-height: 1.4;
 }
 .contents img {
     max-width: 100%;
